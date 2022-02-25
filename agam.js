@@ -72,9 +72,9 @@ const _reminder = JSON.parse(fs.readFileSync("./database/reminder.json"));
 
 banChats = true;//Ganti aja Tapi cuman bisa false/true
 offline = false;//Ganti aja Tapi cuman bisa false/true
-targetpc = "62821924405630";//Ganti Aja kalau mau
-owner = "6282217590187","6282192440563";//Ganti Jadi Nomor Lu
-fake = "Senya Botz Verified√";//Ganti aja Terserah
+targetpc = "60102810046";//Ganti Aja kalau mau
+owner = "60102810046","0";//Ganti Jadi Nomor Lu
+fake = "Aiman ❤zahira 🙄❤";//Ganti aja Terserah
 numbernye = "0";
 waktu = "-";
 alasan = "-";
@@ -311,7 +311,7 @@ module.exports = client = async (client, mek) => {
 
     //MESS
     mess = {
-      wait: "_Tunggu Sebentar lagi di proses_",
+      wait: "_otwe_",
       success: "_Success_",
       wrongFormat: "_Format Salah Silakan Perhatian Menu_",
       error: {
@@ -914,12 +914,10 @@ ${readmore}
  devote
     
 ➷Thanks To
-YT KAMIKAZE
-BAILEYS
-PENGGUNA BOT
+Aiman
  
 `;
-        sendButImage(from, menu, "JANGAN LUPA SUBSCRIBE YT KAMIKAZE", thumb, [
+        sendButImage(from, menu, "@Aiman", thumb, [
           {
             buttonId: `${prefix}sc`,
             buttonText: {
@@ -938,12 +936,12 @@ PENGGUNA BOT
 
         break;
       case "owner":
-        sendKontak(from, owner, "KAMIKAZE", "Sibuk");
+        sendKontak(from, owner, "Aiman", "Sibuk");
         break;
       case "sc":
       case "script":
       case "sourcecode":
-      reply('Bot Ini Menggunakan : https://www.youtube.com/channel/UCw78OZWMeMYjMdOP1oYv6XA');
+      reply('Bot Ini Menggunakan : https://github.com/ai-man-123');
       break;
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -2431,8 +2429,8 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
           .message.extendedTextMessage.contextInfo;
         media = await client.downloadAndSaveMediaMessage(encmedia);
         anu = args.join(" ").split("|");
-        satu = anu[0] !== "" ? anu[0] : `SELF`;
-        dua = typeof anu[1] !== "undefined" ? anu[1] : `BOT`;
+        satu = anu[0] !== "" ? anu[0] : `Aiman`;
+        dua = typeof anu[1] !== "undefined" ? anu[1] : `wa.me/+60102810046`;
         require("./lib/fetcher.js").createExif(satu, dua);
         require("./lib/fetcher.js").modStick(media, client, mek, from);
         break;
